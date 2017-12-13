@@ -1,0 +1,175 @@
+.example-enter {
+  opacity: 0.01;
+}
+.example-enter.example-enter-active {
+  opacity: 1;
+  transition: opacity 500ms ease-in;
+}
+.example-leave {
+  opacity: 1;
+}
+.example-leave.example-leave-active {
+  opacity: 0.01;
+  transition: opacity 300ms ease-in;
+}
+.bodyColor {
+  background-color: #fcdbb5;
+}
+.banner {
+  width: 100%;
+  height: 180px;
+  background-color: #f29954;
+  display: flex;
+  justify-content: flex-end;
+}
+.bannerIconContainer {
+  display: flex;
+  margin-right: 60px;
+}
+.twitterContainer {
+  padding-right: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.facebookContainer {
+  padding-right: 20px;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+}
+.googleContainer {
+  padding-right: 20px;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+}
+.twitterHack {
+  margin-left: -5px;
+}
+.social {
+  height: 50px;
+  margin-bottom: 5px;
+}
+.commentcontainer {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10%; 
+  margin-top: 6%;
+}
+.commentBox {
+  position: relative;
+  background-color: white;
+  height: 100px;
+  border: black;
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 60px;
+  background-color: white;
+  height: auto;
+  padding-bottom: 50px;
+  border: 1px solid #efefef;
+  box-shadow: 0px 0px 12px 1px rgba(219,219,219,1);
+}
+.imageContainer {
+  position: relative;
+}
+.imageContainer > img + div > div {
+ transition: opacity .3s, margin-top .3s, z-index .3s;
+ opacity: 0;
+ margin-top: 10px;
+ z-index: -1;
+}
+
+.imageContainer > img:hover + div > div,
+.imageContainer > img + div > div:hover {
+  opacity: 1;
+  margin-top: 0;
+  z-index: 1;
+ }
+
+ .facebookContainer > img + div > div {
+  transition: opacity .3s, margin-top .3s, z-index .3s;
+  opacity: 0;
+  z-index: -1;
+ }
+ 
+ .facebookContainer > img:hover + div > div,
+ .facebookContainer > img + div > div:hover {
+   opacity: 1;
+   margin-top: 0;
+   z-index: 1;
+  }
+
+  .googleContainer > img + div > div {
+    transition: opacity .3s, margin-top .3s, z-index .3s;
+    opacity: 0;
+    z-index: -1;
+   }
+   
+   .googleContainer > img:hover + div > div,
+   .googleContainer > img + div > div:hover {
+     opacity: 1;
+     margin-top: 0;
+     z-index: 1;
+    }
+
+    .twitterContainer > img + div > div {
+    transition: opacity .3s, margin-top .3s, z-index .3s;
+    opacity: 0;
+    z-index: -1;
+   }
+   
+   .twitterContainer > img:hover + div > div,
+   .twitterContainer > img + div > div:hover {
+     opacity: 1;
+     margin-top: 0;
+     z-index: 1;
+    }
+
+ .trigger > div {
+  transition: opacity .3s, margin-top .3s, z-index .3s;
+  opacity: 0;
+  z-index: -1;
+ }
+ 
+ .trigger:hover > div,
+ .trigger > div:hover {
+   opacity: 1;
+   margin-top: 0;
+   z-index: 1;
+  }
+
+.container {
+  font-family: helvetica;
+  position: relative;
+  justify-content: center;
+  width:  100%;
+  height: 150vh;
+  background-color: #f7f7f7;
+}
+.name {
+  font-size: 1.2em;
+  color: #f28226;
+  display: block;
+  margin-top: 25px;
+}
+.timestamp {
+  font-size: 0.7em;
+  color: #878787;
+  display: block;
+}
+.avatar {
+  height: 70px;
+}
+.comment {
+  color: #444444;
+  width: 85%;
+  line-height: 170%;
+  padding-top: 25px;
+}
+.trigger {
+  color:#2990f2;
+  text-decoration: underline;
+}
+
